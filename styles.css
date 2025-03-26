@@ -1,0 +1,73 @@
+h1 {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: beige;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (min-height: 900px) {
+  p {
+    color: red;
+  }
+}
+
+header {
+  height: 30px;
+  background-color: blue;
+}
+
+@media (min-width: 1000px) {
+  header {
+    background-color: green;
+  }
+}
+
+@media (max-height: 500px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (width: 1024px) {
+  footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.container {
+  background-color: red;
+  height: 900px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  p {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  a {
+    color: orange;
+  }
+}
